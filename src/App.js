@@ -19,7 +19,6 @@ function App() {
             baseCurrencyAmount="1000"
             defaultCurrencyCode="eth"
             walletAddress="0xc216eD2D6c295579718dbd4a797845CdA70B3C36"
-            email="ranto10tavela@gmail.com"
             paymentMethod="credit_debit_card"
             language="fr"
             showOnlyCurrencies="eth"
