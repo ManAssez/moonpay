@@ -17,11 +17,11 @@ function App() {
             variant="embedded"
             baseCurrencyCode="usd"
             baseCurrencyAmount="1000"
-            defaultCurrencyCode="btc"
+            defaultCurrencyCode="eth"
             walletAddress="0xc216eD2D6c295579718dbd4a797845CdA70B3C36"
             paymentMethod="credit_debit_card"
             language="fr"
-            showOnlyCurrencies="btc"
+            showOnlyCurrencies="eth"
             showWalletAddressForm="false"
             visible
           />
