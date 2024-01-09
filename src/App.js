@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { MoonPayProvider } from "@moonpay/moonpay-react";
-import { MoonPayBuyWidget } from "@moonpay/moonpay-react";
-import { useState } from "react";
+import logo from './logo.svg';
+import './App.css';
+import { MoonPayProvider } from '@moonpay/moonpay-react';
+import { MoonPayBuyWidget } from '@moonpay/moonpay-react';
+import { useState } from 'react';
 function App() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="App">
       <MoonPayProvider
-        apiKey="pk_test_y59OrPlcSLmCOv43kNz2mcjgF0pf9Uw"
+        apiKey="pk_test_WMS9Po3WNc39YQcS6JMEAWpldcaMOvY"
         environment="sandbox"
         debug
       >
