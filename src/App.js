@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <MoonPayProvider
-        apiKey="pk_live_NuFhvAAONew9PvWCMN7JDMRhrWsMER"
+        apiKey="pk_test_WMS9Po3WNc39YQcS6JMEAWpldcaMOvY"
         environment="sandbox"
         debug
       >
@@ -14,11 +14,11 @@ function App() {
             variant="embedded"
             baseCurrencyCode="usd"
             baseCurrencyAmount="100"
-            defaultCurrencyCode="btc"
-            walletAddress="147PfSyiHcNrH8kd3vAwU6a3eLarqcoMp3"
+            defaultCurrencyCode="eth"
+            walletAddress="0xc216eD2D6c295579718dbd4a797845CdA70B3C36"
             paymentMethod="credit_debit_card"
             language="fr"
-            showOnlyCurrencies="btc"
+            showOnlyCurrencies="eth"
             showWalletAddressForm="false"
             visible
           />
